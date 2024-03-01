@@ -22,4 +22,18 @@ function calculoMedia(x, y, z) {
 }
 
 let media = calculoMedia(1, 2, 3);
-console.log(media);
+    console.log(media);
+
+function maiorNumero(a, b) {
+    return a > b ? a : b;
+}
+
+let numeroMaior = maiorNumero(5, 10);
+    console.log(numeroMaior);
+
+function numeroQuadrado(numero) {
+    return numero * numero;
+}
+
+let quadrado = numeroQuadrado(12);
+    console.log(quadrado);
